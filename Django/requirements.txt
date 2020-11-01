@@ -1,0 +1,11 @@
+Django==3.1.2
+tqdm
+lightfm
+joblib
+pandas
+nltk
+pymorphy2
+sklearn
+scipy
+django-crispy-forms
+python-Levenshtein

@@ -1,0 +1,19 @@
+{% extends 'polls/base.html' %}
+{% block content %}
+    <title>Section page</title>
+    <div class="col bg-light rounded m-1 pt-4 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="section_title text-secondary mb-3"><p><b>Название:</b></p>  {{ section.title }} </div>
+                    <div class="section_underground text-secondary mb-3"><p><b>Метро:</b></p>  {{ section.underground }} </div>
+                    <div class="section_address text-secondary mb-3"><p><b>Адрес:</b></p>  {{ section.street }} </div>
+                    <div class="section_price text-secondary mb-3"><p><b>Цена:</b></p>  {{ section.type_price }} </div>
+                    <div class="section_schedule text-secondary mb-3"><p><b>Расписание:</b></p>  {{ section.type_schedule }} </div>
+                    <div class="section_time text-secondary mb-3"><p><b>Длительность:</b></p>  {{ section.time_learn }} {{ section.one_duration }} </div>
+                    <div class="section_org text-secondary mb-3"><p><b>Организация:</b></p>  {{ section.name_org }} </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
