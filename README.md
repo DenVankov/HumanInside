@@ -23,6 +23,10 @@ $pip3 install -r requirements.txt --no-index
 ```
 
 ### Запуск сервера
+Первоначально нужно исполнить скрипт make
+```bash
+$python3 manage.py make -a
+```
 Чтобы запустить сайт нужно выполнить скрипт
 ```bash
 $python3 manage.py runserver
