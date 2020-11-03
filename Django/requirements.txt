@@ -4,6 +4,7 @@ lightfm
 joblib
 pandas
 nltk
+gensim
 pymorphy2
 sklearn
 scipy
