@@ -9,7 +9,7 @@
 #### Виртуальное окружение
 Находясь внутри дирректории Django, нужно выполнить команду
 ```bash
-$sourse virtenv/bin/activate
+$source virtenv/bin/activate
 ```
 
 Если имеется окружение conda, то его, предварительно, нужно отключить
@@ -19,7 +19,7 @@ $conda deactivate
 #### Скачивание библиотек
 Прежде, чем перейти к запуску, необходимо скачать библиотеки, которые использовались при написании сайта. Все имена библиотек лежат в файле requirements.txt
 ```bash
-$pip3 install requirements.txt
+$pip3 install -r requirements.txt --no-index
 ```
 
 ### Запуск сервера
